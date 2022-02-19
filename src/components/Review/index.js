@@ -19,8 +19,8 @@ const Review = () => {
             </Col>
           </Row>
 
-          <Row justify="center" className="mb-48">
-            <Col lg={7} xl={7} md={7} sm={14} xs={14}>
+          <Row justify="center" className="mb-48" gutter={[16, 42]}>
+            <Col lg={7} xl={7} md={7} sm={12} xs={12}>
               <ProfileImage
                 src="https://d9hhrg4mnvzow.cloudfront.net/info.geers.de/zdf/0e5efddc-step-1-desktop_100000005b05b01c000000.png"
                 width="191px"
@@ -28,7 +28,7 @@ const Review = () => {
                 alt="profile"
               />
             </Col>
-            <Col lg={7} xl={7} md={7} sm={14} xs={14}>
+            <Col lg={7} xl={7} md={7} sm={12} xs={12}>
               <ProfileImage
                 src="https://d9hhrg4mnvzow.cloudfront.net/info.geers.de/zdf/d4b70dcc-lp-step2-better-hearing.jpg"
                 width="191px"
@@ -36,7 +36,7 @@ const Review = () => {
                 alt="profile"
               />
             </Col>
-            <Col lg={7} xl={7} md={7} sm={14} xs={14}>
+            <Col lg={7} xl={7} md={7} sm={12} xs={12}>
               <ProfileImage
                 src="https://d9hhrg4mnvzow.cloudfront.net/info.geers.de/zdf/b7fc51df-step-3-desktop_100000005b05b01c000000.png"
                 width="191px"
